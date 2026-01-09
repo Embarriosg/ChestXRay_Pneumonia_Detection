@@ -183,10 +183,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 The dataset utilized in this project was sourced from publicly available medical imaging repositories. The implementation leverages PyTorch and torchvision libraries for deep learning development, with visualization support from matplotlib, seaborn, and OpenCV.
 
-## Contact
-
-For questions, suggestions, or collaboration opportunities, please open an issue in the GitHub repository or contact the project maintainer.
-
 ---
 
 **Note**: This project is intended for research and educational purposes. The models have not undergone clinical validation and should not be used for actual medical diagnosis without appropriate regulatory approval and expert oversight.
