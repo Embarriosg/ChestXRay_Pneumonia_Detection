@@ -24,22 +24,27 @@ ChestXRay_Pneumonia_Detection/
 ├── src/
 │   └── data/
 │       └── dataloaders.py
-├── models_saved/
-│   ├── best_model.pth
-│   ├── resnet_phase1_best.pth
-│   └── resnet_phase2_best.pth
 ├── results/
 │   └── figures/
-│       ├── cnn_training_curves.png
+│       ├── Normal_GradCAM_Batch.png
+│       ├── Overrall_model_performance.png
+│       ├── Pneumonia_GradCAM.jpeg
+│       ├── Pneumonia_GradCAM_Batch.png
+│       ├── Reduction_missed_pneumonia.png
 │       ├── cnn_evaluation.png
-│       ├── resnet_training_curves.png
-│       └── resnet_evaluation.png
+│       ├── cnn_training_curves.png
+│       ├── neumonia-normal.png
+│       ├── resnet_evaluation.png
+│       └── resnet_training_curves.png
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_cnn_model.ipynb
 │   ├── 03_resnet_transfer_learning.ipynb
-│   └── 04_gradcam_visualization.ipynb
-└── README.md
+│   ├── 04_gradcam_visualization.ipynb
+│   └── 05_results_analysis.ipynb
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ## Dataset Information
